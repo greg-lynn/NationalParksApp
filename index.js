@@ -15,7 +15,7 @@ function displayResults(responseJson, maxResults) {
         $('.results-list').append(`<li>
         <h3><a href="${responseJson.data[i].url}">${responseJson.data[i].fullName}</a></h3>
         <p><b>${responseJson.data[i].description}</b></p>
-        <p>${responseJson.data[i].directionsInfo}</p>
+        <p><b>Directions:</b> ${responseJson.data[i].directionsInfo}</p>
         </li>`);
     }
     $('.results').removeClass('hidden');

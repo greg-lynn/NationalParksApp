@@ -29,3 +29,16 @@ h1 {
   color: black;
   font-size: 28px;
 }
+
+li>h3 {
+  font-size: 18px
+}
+
+li>p {
+  color: black;
+  font-size: 16px;
+}
+
+form>label {
+  font-size: 16px;
+}

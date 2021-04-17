@@ -50,7 +50,7 @@ function getParks(baseUrl, stateArr, maxResults, apiKey) {
 function watchForm() {
     $('.js-form').on('submit', function() {
         event.preventDefault();
-        const baseUrl = 'https://api.nps.gov/api/v1/parks'
+        const baseUrl = 'https://developer.nps.gov/api/v1/parks'
         const stateArr = $('.js-state-entered').val().split(",");
         const maxResults = $('.js-result-amt').val();
 
